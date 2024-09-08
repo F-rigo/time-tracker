@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "time-tracker",
-    "slug": "time-tracker",
+    "name": "Controllo Orario",
+    "slug": "controllo-orario",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.controllo-orario"
     },
     "android": {
+      "package": "com.fernandorigo.controlloorario",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ebaa8ad8-40b8-49f9-9bc6-567f0d060491"
+      }
     }
   }
 }
